@@ -50,7 +50,13 @@ class Galaxy:
             with the emission line name (one of "Hbeta", "Hgamma", "5007", "4959", and "3727") 
 
         emission_lines_folder: str
-
+            Path to folder containing threadcount emission line fit outputs
+        
+        outflow_region_filepath: str
+            Path to threadcount outflow profile file (XX_outflow_width_prof.txt)
+        
+        galaxy_region:
+            List of ints 
         
         results_folder:
         galaxy_center:
