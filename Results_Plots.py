@@ -23,6 +23,7 @@ from PIL import Image
 import warnings
 warnings.filterwarnings("ignore")
 
+
 def fmt(x):
     s = f"{x:.1f}"
     if s.endswith("0"):
